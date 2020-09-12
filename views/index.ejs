@@ -1,0 +1,14 @@
+<%- include('./partials/head')-%>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Starter NodeJS, MySQL et EJS.</h1>
+      <% if (message) {%>
+          <p><%= message %></p>
+        <%}
+          else {%> <p>Il n'ya pas de contenu</p> <%}
+      %>
+    </div>
+  </div>
+</div>
+  <%- include('./partials/footer')-%>
